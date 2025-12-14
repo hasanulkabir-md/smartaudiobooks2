@@ -1,8 +1,46 @@
 # smartaudiobooks2
-# Install Python and Pycharm
-# use this code to install  Python text to speech version 3 using this command in Timeline
-pip install pyttsx3
-# import it to main.py
-import pyttsx3
-# Install python pdf file using command in Timeline
-pip install PyPDF2
+
+## Project Overview
+**smartaudiobooks2** is a Python-based application that converts text and PDF documents into audiobooks using text-to-speech technology.
+
+## Requirements
+- Python 3.x
+- PyCharm (recommended IDE)
+
+## Installation
+
+1. **Install Python**
+   Download and install Python from the official website:
+   https://www.python.org/
+
+2. **Install required libraries**
+   Open the terminal (or PyCharm Terminal) and run:
+   ```bash
+   pip install pyttsx3
+   pip install PyPDF2
+````
+
+## Usage
+
+1. Create or open `main.py`
+2. Import the required libraries:
+
+   ```python
+   import pyttsx3
+   from PyPDF2 import PdfReader
+   ```
+3. Run the application to convert text or PDF content into speech.
+
+## Features
+
+* Text-to-speech conversion using **pyttsx3**
+* PDF text extraction using **PyPDF2**
+* Offline audiobook generation
+* Simple and lightweight implementation
+
+## Notes
+
+* Ensure your Python environment is correctly configured in PyCharm.
+* The project uses offline TTS and does not require an internet connection.
+
+```
