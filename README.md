@@ -18,7 +18,7 @@
    ```bash
    pip install pyttsx3
    pip install PyPDF2
-```
+
 ## Usage
 
 1. Create or open `main.py`
