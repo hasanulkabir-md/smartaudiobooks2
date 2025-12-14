@@ -24,9 +24,9 @@
 1. Create or open `main.py`
 2. Import the required libraries:
 
-   import pyttsx3
-   from PyPDF2 import PdfReader
-   ```
+ import pyttsx3
+from PyPDF2 import PdfReader
+
 3. Run the application to convert text or PDF content into speech.
 
 ## Features
