@@ -40,5 +40,3 @@ from PyPDF2 import PdfReader
 
 * Ensure your Python environment is correctly configured in PyCharm.
 * The project uses offline TTS and does not require an internet connection.
-
-```
